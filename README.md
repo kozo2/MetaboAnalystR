@@ -12,7 +12,16 @@
 
 We present a new update to MetaboAnalystR (In conjuction with the release of MetaboAnalyst Version 4.0) to enable comprehensive metabolomic data analysis, interpretation, and integration with other omics data. Three new modules have been added: 1) a module for pathway prediction from high-resolution mass spectral data using the mummichog algorithm; 2) a Biomarker Meta-Analysis module for robust biomarker identification through the combination of multiple metabolomic datasets; and 3) a Network Explorer module for integrative analysis of metabolomics, metagenomics, and/or transcriptomics data. 
 
-## Getting Started
+## Try MetaboAnalystR without installation
+
+No installation needed. Please click [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/kozo2/MetaboAnalystR/master) badge.
+After that, you should see the Jupyter Notebook.
+In the Jupyter Notebook click on "New" > "RStudio Session". You should see RStudio next.
+
+MetaboAnalystR is already installed in the RStudio environment.
+Please load MetaboAnalystR by running `library(MetaboAnalystR)` in the RStudio console.
+
+## Installation
 
 ### Step 1. Install package dependencies 
 
